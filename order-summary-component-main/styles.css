@@ -1,0 +1,63 @@
+/* General Styles */
+
+body{
+    background-image: url("./images/pattern-background-desktop.svg");
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+    text-align: center;
+    color: hsl(244, 6%, 48%);
+    margin: auto;
+}
+
+.music{
+    background-color:  hsla(223, 70%, 96%, 0.863);
+    border-radius: 5%;
+    width: 90%;
+    margin: auto;
+}
+
+
+/* Conatiner Styling */
+.container-fluid{
+    background-color:  hsl(225, 100%, 98%);
+    width: 50%;
+    margin: 8% 20%;
+    border-radius: 5%;
+    padding: 0%;
+   
+}
+
+.illustration-image{
+    width: 100%;
+    border-radius: 5% 5% 0 0;
+    padding: 0%;
+}
+
+.home-hero{
+    background-image: url("./images/pattern-background-desktop.svg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+.cancel , .payment , .music , .summary {
+    padding: 5%;
+}
+
+.text{
+    width: 60%;
+    margin: auto;
+}
+
+.payment-button{
+    background-color: rgb(23, 5, 128);
+    color: white;
+}
+
+.cancel-button{
+    color:hsl(244, 6%, 48%) ;
+}
